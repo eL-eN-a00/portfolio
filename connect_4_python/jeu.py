@@ -13,16 +13,16 @@ def jeu():
   Fonction principale pour lancer le jeu Puissance 4, permettant aux joueurs de choisir le mode de jeu, le niveau de difficulté et le style d'affichage.
   """
   grille = creer_grille()
-  print("Puissance 4 by Julie, Hector & Elena \nChoisissez votre affichage : 1 2 3 4 ou 5")
+  print("Puissance 4 by Elena \nChoisissez votre affichage : 1 2 3 4 ou 5")
   numero = int(input())
   while numero not in [1, 2, 3, 4, 5]:
-    print("Puissance 4 by Julie, Hector & Elena \nChoisissez votre affichage : 1 2 3 4 ou 5")
+    print("Puissance 4 by Elena \nChoisissez votre affichage : 1 2 3 4 ou 5")
     numero = int(input())
   print("Choisissez votre mode de jeu : \n Si vous voulez jouer contre un ami (la famille tu connais), tapez 1 \nSi vous voulez jouer contre un ordinateur (bon courage), tapez 2 \nSi vous voulez que deux ordinateurs s'affrontent (carrément en loges VIP), tapez 3")
   entree = int(input())
   while entree not in [1, 2, 3]:
     print("Je n'ai pas compris")
-    print("Puissance 4 by Julie, Hector & Elena \nChoisissez votre mode de jeu : \nSi vous voulez jouer contre un ami (la famille tu connais), tapez 0 \nSi vous voulez jouer contre un ordinateur (bon courage), tapez 1 \nSi vous voulez que deux ordinateurs s'affrontent (carrément en loges VIP), tapez 2")
+    print("Puissance 4 by Elena \nChoisissez votre mode de jeu : \nSi vous voulez jouer contre un ami (la famille tu connais), tapez 0 \nSi vous voulez jouer contre un ordinateur (bon courage), tapez 1 \nSi vous voulez que deux ordinateurs s'affrontent (carrément en loges VIP), tapez 2")
     entree = int(input())
   if entree == 1:
     jouer_vs_humain(grille, numero) 
