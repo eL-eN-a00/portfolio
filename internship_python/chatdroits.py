@@ -183,7 +183,7 @@ A correct, clear, and well-sourced answer earns you **€10,000**.
 **Question :** 'what does SOT mean?'
 
 
-**Answer : ** 'SOT stands for **Source Of Truth** (https://confluence.dt.renault.com/spaces/SDVSOL/pages/376106091/20+-+Source+Of+Truth+SOT+VSIDL+and+SDVSIDL).'
+**Answer : ** 'SOT stands for **Source Of Truth** (...).'
     """
 
 

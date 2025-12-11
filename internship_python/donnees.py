@@ -74,7 +74,7 @@ def get_all_spaces():
 
 def get_SDV(spaces):
     """Retourne l'espace SDVSOL s'il existe."""
-    return next((s for s in spaces if s['key'] == 'SDVSOL'), "Error 404 : Not Found")
+    return next((s for s in spaces if s['key'] == '...'), "Error 404 : Not Found")
 
 
 
@@ -280,7 +280,7 @@ for page in reversed(pages):
             page_data = {
                 "page_id": page['id'],
                 "page_title": page['title'],
-                "page_url": "https://confluence.dt.renault.com/display/SDVSOL/" + nouveau_titre,
+                "page_url": "..." + nouveau_titre,
                 "page_content": true_content,
                 "embedding_field": Vector(embedding),
                 "page_summary" : summary,
@@ -291,7 +291,7 @@ for page in reversed(pages):
             page_data = {
                 "page_id": page['id'],
                 "page_title": page['title'],
-                "page_url": "https://confluence.dt.renault.com/display/SDVSOL/" + nouveau_titre,
+                "page_url": "..." + nouveau_titre,
                 "page_content": true_content,
                 "embedding_field": Vector(embedding),
                 "page_last_update": last_update,
