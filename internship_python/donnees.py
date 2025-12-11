@@ -73,7 +73,7 @@ def get_all_spaces():
 
 
 def get_SDV(spaces):
-    """Retourne l'espace SDVSOL s'il existe."""
+    """Retourne l'espace  s'il existe."""
     return next((s for s in spaces if s['key'] == '...'), "Error 404 : Not Found")
 
 

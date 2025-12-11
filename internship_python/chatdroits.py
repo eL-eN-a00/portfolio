@@ -199,7 +199,7 @@ st.set_page_config(
 async def generate_response(parts):
     session_id = "SDV_agent_ecg"
     app_name = "Agent SDV "
-    user_id = "p130218"
+    user_id = "..."
     if "session_service" not in st.session_state:
         session_service = InMemorySessionService()
         st.session_state.session_service = await session_service.create_session(app_name=app_name, user_id=user_id, session_id=session_id)
